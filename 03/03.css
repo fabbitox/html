@@ -3,7 +3,16 @@
     padding: 0px;
 }
 
+header {
+    top: 0px;
+    left: 0px;
+    position: sticky;
+}
+
 nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 50px;
     background-color: #ffeedd;
 }
@@ -12,8 +21,8 @@ nav li {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
-    padding: 5px 10px;
+    height: 36px;
+    padding: 5px 8px;
 }
 
 nav li:hover {
@@ -29,11 +38,19 @@ nav a {
     color: #440088;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 article {
     background-color: #eeffff;
     margin-top: 12px;
     padding-left: 8px;
     margin-bottom: 8px;
+    width: 80%;
+    display: flex;
 }
 
 #info,
@@ -42,7 +59,9 @@ article {
 }
 
 h1 {
-    padding-left: 8px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
 }
 
 .c3 {
@@ -62,7 +81,16 @@ h1 {
 }
 
 ul {
-    margin: 2px 0px 4px 20px;
+    margin: 5px 30px;
+}
+
+#image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    padding: 8px;
 }
 
 #image>div {
@@ -70,6 +98,9 @@ ul {
     border-radius: 80px;
     width: 160px;
     height: 160px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 #image img {
@@ -78,5 +109,7 @@ ul {
 }
 
 footer {
+    display: flex;
     margin: 20px;
+    justify-content: center;
 }
