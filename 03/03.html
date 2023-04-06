@@ -5,43 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>K-digital 3기 이현진</title>
+    <link rel="stylesheet" type="text/css" href="./03.css">
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li>개인정보</li>
-            <li>학력사항</li>
-            <li>자격증</li>
-            <li>사용 가능 언어</li>
-        </ul>
-    </nav>
+    <!-- 시맨틱 태그 -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#info">개인정보</a></li>
+                <li><a href="#education">학력사항</a></li>
+                <li><a href="#license">자격증</a></li>
+                <li><a href="#language">사용 가능 언어</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <main>
-        <article id="image"><img src="../img/ringreal.png" width="150px">
+        <article id="image" class="c3"><img src="../img/ringreal.png" width="150px">
         </article>
-        <article id="info">
-            <h1>개인정보</h1>
+        <article id="info" class="c1">
+            <h1 style="background-color: #ddbbff;">개인정보</h1>
             <ul>
                 <li>이현진</li>
                 <li>010-5122-xxxx</li>
                 <li>E-mail: hyunjin_11@naver.com</li>
-                <li>부산광역시 사상구</li>
+                <li>부산광역시 <span style="background-color: #5577ff; color: white">사상구</span></li>
             </ul>
         </article>
-        <article id="education">
+        <article id="education" class="c2">
             <h1>학력사항</h1>
             <ul>
                 <li>고등학교</li>
                 <li>대학교</li>
             </ul>
         </article>
-        <article id="license">
+        <article id="license" class="c2">
             <h1>자격증</h1>
             <ul>
                 <li>운전면허</li>
             </ul>
         </article>
-        <article id="language">
+        <article id="language" class="c3">
             <h1>사용 가능 언어</h1>
             <ul>
                 <li>한국어</li>
