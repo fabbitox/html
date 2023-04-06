@@ -1,3 +1,13 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    height: 50px;
+    background-color: #ffeedd;
+}
+
 .c3>h1 {
     background-color: #ffccee;
     color: #440088
@@ -5,6 +15,9 @@
 
 article {
     background-color: #eeffff;
+    margin-top: 12px;
+    padding-left: 8px;
+    margin-bottom: 8px;
 }
 
 #info,
@@ -18,7 +31,51 @@ article {
 
 .c2 li
 
-/* .c2 > ul > li  */
+/* .c2>ul>li  */
     {
     color: #880044;
+}
+
+ul {
+    margin: 2px 0px 4px 20px;
+}
+
+nav li {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    padding: 5px 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #440088;
+}
+
+#image>div {
+    border: 2px dashed #ffccee;
+    border-radius: 8px;
+    width: 160px;
+    height: 160px;
+}
+
+#image img {
+    width: 100%;
+}
+
+nav li:hover {
+    background-color: #ffcc99;
+}
+
+nav a:hover {
+    color: #ff6600;
+}
+
+h1 {
+    padding-left: 8px;
+}
+
+footer {
+    margin: 20px;
 }
