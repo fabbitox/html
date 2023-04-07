@@ -84,6 +84,12 @@ ul {
     margin: 5px 30px;
 }
 
+article>ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #image {
     display: flex;
     flex-direction: column;
