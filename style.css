@@ -14,7 +14,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    height: 70px;
     background-color: #ffeedd;
 }
 
@@ -22,7 +22,8 @@ nav li {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    height: 36px;
+    font-size: 24px;
+    height: 60px;
     padding: 5px 8px;
 }
 
@@ -50,7 +51,7 @@ article {
     margin-top: 12px;
     padding-left: 8px;
     margin-bottom: 8px;
-    width: 80%;
+    min-width: 500px;
     display: flex;
 }
 
@@ -60,16 +61,20 @@ article {
 
 .study {
     background-color: #ffeeff;
+    min-width: 500px;
+    width: fit-content;
 }
 
 h1 {
     display: flex;
     align-items: center;
     padding: 8px;
+    font-size: 32px;
 }
 
 ul {
     margin: 5px 30px;
+    font-size: large
 }
 
 article>ul {
@@ -78,16 +83,16 @@ article>ul {
     justify-content: center;
 }
 
-#image {
+#profile {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    height: 200px;
+    height: 180px;
     align-items: center;
     padding: 8px;
 }
 
-#image>div {
+#imagediv {
+    margin-right: 50px;
     border: 2px dashed #ffccee;
     border-radius: 80px;
     width: 160px;
@@ -97,7 +102,7 @@ article>ul {
     display: flex;
 }
 
-#image img {
+#profile img {
     width: 100%;
     border-radius: 50%;
 }
