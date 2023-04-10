@@ -47,7 +47,6 @@ main {
 }
 
 article {
-    background-color: #dfffff;
     margin-top: 12px;
     padding-left: 8px;
     margin-bottom: 8px;
@@ -61,20 +60,24 @@ article {
 
 .study {
     background-color: #ffeeff;
-    min-width: 500px;
-    width: fit-content;
+    min-width: 480px;
 }
 
 h1 {
     display: flex;
     align-items: center;
-    padding: 8px;
+    padding: 12px;
     font-size: 32px;
 }
 
 ul {
     margin: 5px 30px;
     font-size: large
+}
+
+article {
+    border-radius: 20px;
+    padding: 20px 10px;
 }
 
 article>ul {
