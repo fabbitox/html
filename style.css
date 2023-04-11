@@ -14,7 +14,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70px;
+    height: 60px;
     background-color: #ffeedd;
 }
 
@@ -22,8 +22,8 @@ nav li {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
-    height: 60px;
+    font-size: large;
+    height: 50px;
     padding: 5px 8px;
 }
 
@@ -50,24 +50,32 @@ article {
     margin-top: 12px;
     padding-left: 8px;
     margin-bottom: 8px;
-    min-width: 500px;
+    width: 480px;
     display: flex;
 }
 
-#info {
-    background-color: #ffffee;
+a:link {
+    color: #9900ff;
+}
+a:hover {
+    color: #cc33ff;
+}
+a:active {
+    color: #6600ff;
+}
+a:visited {
+    color: #440088;
 }
 
 .study {
     background-color: #ffeeff;
-    min-width: 480px;
 }
 
 h1 {
     display: flex;
     align-items: center;
     padding: 12px;
-    font-size: 32px;
+    font-size: x-large;
 }
 
 ul {
@@ -94,8 +102,12 @@ article>ul {
     padding: 8px;
 }
 
+#info {
+    background-color: #ffffee;
+}
+
 #imagediv {
-    margin-right: 50px;
+    margin-right: 40px;
     border: 2px dashed #ffccee;
     border-radius: 80px;
     width: 160px;
@@ -115,4 +127,36 @@ footer {
     flex-direction: column;
     margin-top: 20px;
     align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        height: fit-content;
+    }
+
+    nav li {
+        height:30px;
+        font-size: medium;
+    }
+
+    #profile {
+        margin: 0px;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    #imagediv {
+        margin: 10px 0px;
+    }
+
+    article {
+        flex-direction: column;
+        width: 80%;
+        padding: 4px 2px 12px 6px;
+        margin: 8px 0px;
+    }
+
+    h1 {
+        padding: 6px 8px;
+    }
 }
