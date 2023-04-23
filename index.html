@@ -7,6 +7,7 @@
     <title>K-digital 3기 이현진</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
     <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <script src="./script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
@@ -30,68 +31,71 @@
     </header>
 
     <main>
-        <article id="profile">
-            <div id="imagediv"><img src="./img/ringreal.png"></div>
-            <div id="info" style="border-radius: 20px;"><h1 style="background-color: #ddbbff; display: inline-block; border-radius: 10px;">개인정보</h1>
+        <div id="contdiv">
+            <article id="profile">
+                <div id="imagediv"><img src="./img/ringreal.png"></div>
+                <div id="info" style="border-radius: 20px;"><h1 style="background-color: #ddbbff; display: inline-block; border-radius: 10px;">개인정보</h1>
+                    <ul>
+                        <li>이현진</li>
+                        <li><a href="https://github.com/fabbitox">GitHub fabbitox</a></li>
+                        <li>E-mail: hyunjin_11@naver.com</li>
+                        <li>부산광역시 <span style="background-color: #bbeeff; display: inline-block; border-radius: 4px; padding: 1px 3px;">사상구</span></li>
+                    </ul></div>
+            </article>
+            </article>
+            <article id="html" class="study">
+                <h1>HTML</h1>
                 <ul>
-                    <li>이현진</li>
-                    <li><a href="https://github.com/fabbitox">GitHub fabbitox</a></li>
-                    <li>E-mail: hyunjin_11@naver.com</li>
-                    <li>부산광역시 <span style="background-color: #bbeeff; display: inline-block; border-radius: 4px; padding: 1px 3px;">사상구</span></li>
-                </ul></div>
-        </article>
-        </article>
-        <article id="html" class="study">
-            <h1>HTML</h1>
-            <ul>
-                <li><a href="01/01.html">[04.04]: HTML 연습</a></li>
-                <li><a href="02/02.html">[04.05]: 소개 페이지 만들기</a></li>
-                <li><a href="03/03.html">[04.06]: 스타일 적용</a></li>
-                <li><a href="04/04.html">[04.07]: Pico.css 활용</a></li>
-            </ul>
-        </article>
-        <article id="java" class="study">
-            <h1>Java</h1>
-            <ul>
-                <li><a href="https://github.com/fabbitox/java/blob/main/Mission1.java">점수 3개 입력 받고 기준에 따라 과락, 통과 여부 출력</a></li>
-                <li><a href="https://github.com/fabbitox/java/blob/main/Mission2.java">정해진 3X4 행렬과 4X3 행렬의 곱</a></li>
-                <li><a href="https://github.com/fabbitox/java/blob/main/Mission2_1.java">행과 열 수, 요소를 입력받아 곱하기</a></li>
-                <li><a href="https://github.com/fabbitox/java/blob/main/Mission3.java">2023년 이후의 윤년 40개 찾기</a></li>
-                <li><a href="https://github.com/fabbitox/java/blob/main/Mission4.java">1부터 1000까지 더하기(for loop)</a></li>
-                <li><a href="https://github.com/fabbitox/java/blob/main/Mission4_1.java">1부터 입력받은 수까지 더하기(시그마 합 공식)</a></li>
-                <li><a href="https://github.com/fabbitox/java/blob/main/Mission5.java">임의의 금액을 지불하기 위해 필요한 최소 지폐 수 계산(천 원 미만 버림)</a></li>
-                <li><a href="https://github.com/fabbitox/java/blob/main/Mission6.java">이진수</a></li>
-                <li><a href="https://github.com/fabbitox/java/blob/main/Mission7.java">최대공약수 최소공배수</a></li>
-                <li><a href="https://github.com/fabbitox/java/blob/main/Mission8.java">팩토리얼</a></li>
-                <li><a href="https://github.com/fabbitox/java/blob/main/Mission9.java">2g, 3g, 5g 추로 무게 맞추기(10g ~ 100g)</a></li>
-            </ul>
-        </article>
-        <article id="javascript" class="study">
-            <h1>JavaScript</h1>
-            <ul>
-                <li><a href="https://fabbitox.github.io/javascript/13.html">주사위 게임</a></li>
-                <li><a href="https://fabbitox.github.io/javascript/15.html">과일 버튼 -> 목록 색 바꾸기</a></li>
-                <li><a href="https://fabbitox.github.io/javascript/16.html">주사위 게임 2</a></li>
-                <li><a href="https://fabbitox.github.io/javascript/17.html">온도 변환</a></li>
-                <li><a href="https://fabbitox.github.io/javascript/18.html">회문, 문자열 속 숫자 합</a></li>
-                <li><a href="https://fabbitox.github.io/javascript/19.html">과일 이모지</a></li>
-                <li><a href="https://fabbitox.github.io/javascript/20.html">폭탄 게임</a></li>
-                <li><a href="https://fabbitox.github.io/javascript/21.html">박스오피스</a></li>
-            </ul>
-        </article>
-        <article id="language" class="art" style="background-color: #dfffff;">
-            <h1>사용가능언어</h1>
-            <ul>
-                <li>한국어</li>
-                <li>English</li>
-                <li>C, C++</li>
-                <li>HTML, CSS, JavaScript</li>
-                <li>Java</li>
-                <li>Python</li>
-            </ul>
-        </article>
-
+                    <li><a href="01/01.html">[04.04]: HTML 연습</a></li>
+                    <li><a href="02/02.html">[04.05]: 소개 페이지 만들기</a></li>
+                    <li><a href="03/03.html">[04.06]: 스타일 적용</a></li>
+                    <li><a href="04/04.html">[04.07]: Pico.css 활용</a></li>
+                </ul>
+            </article>
+            <article id="java" class="study">
+                <h1>Java</h1>
+                <ul>
+                    <li><a href="https://github.com/fabbitox/java/blob/main/Mission1.java">점수 3개 입력 받고 기준에 따라 과락, 통과 여부 출력</a></li>
+                    <li><a href="https://github.com/fabbitox/java/blob/main/Mission2.java">정해진 3X4 행렬과 4X3 행렬의 곱</a></li>
+                    <li><a href="https://github.com/fabbitox/java/blob/main/Mission2_1.java">행과 열 수, 요소를 입력받아 곱하기</a></li>
+                    <li><a href="https://github.com/fabbitox/java/blob/main/Mission3.java">2023년 이후의 윤년 40개 찾기</a></li>
+                    <li><a href="https://github.com/fabbitox/java/blob/main/Mission4.java">1부터 1000까지 더하기(for loop)</a></li>
+                    <li><a href="https://github.com/fabbitox/java/blob/main/Mission4_1.java">1부터 입력받은 수까지 더하기(시그마 합 공식)</a></li>
+                    <li><a href="https://github.com/fabbitox/java/blob/main/Mission5.java">임의의 금액을 지불하기 위해 필요한 최소 지폐 수 계산(천 원 미만 버림)</a></li>
+                    <li><a href="https://github.com/fabbitox/java/blob/main/Mission6.java">이진수</a></li>
+                    <li><a href="https://github.com/fabbitox/java/blob/main/Mission7.java">최대공약수 최소공배수</a></li>
+                    <li><a href="https://github.com/fabbitox/java/blob/main/Mission8.java">팩토리얼</a></li>
+                    <li><a href="https://github.com/fabbitox/java/blob/main/Mission9.java">2g, 3g, 5g 추로 무게 맞추기(10g ~ 100g)</a></li>
+                </ul>
+            </article>
+            <article id="javascript" class="study">
+                <h1>JavaScript</h1>
+                <ul>
+                    <li><a href="https://fabbitox.github.io/javascript/13.html">주사위 게임</a></li>
+                    <li><a href="https://fabbitox.github.io/javascript/15.html">과일 버튼 -> 목록 색 바꾸기</a></li>
+                    <li><a href="https://fabbitox.github.io/javascript/16.html">주사위 게임 2</a></li>
+                    <li><a href="https://fabbitox.github.io/javascript/17.html">온도 변환</a></li>
+                    <li><a href="https://fabbitox.github.io/javascript/18.html">회문, 문자열 속 숫자 합</a></li>
+                    <li><a href="https://fabbitox.github.io/javascript/19.html">과일 이모지</a></li>
+                    <li><a href="https://fabbitox.github.io/javascript/20.html">폭탄 게임</a></li>
+                    <li><a href="https://fabbitox.github.io/javascript/21.html">박스오피스</a></li>
+                </ul>
+            </article>
+            <article id="language" class="art" style="background-color: #dfffff;">
+                <h1>사용가능언어</h1>
+                <ul>
+                    <li>한국어</li>
+                    <li>English</li>
+                    <li>C, C++</li>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                </ul>
+            </article>
+        </div>
+        <div id="timetable"></div>
     </main>
+
     <footer>K-digital 3기<span class="material-symbols-outlined" id="diamond">
             diamond
         </span><span class="material-symbols-outlined" style="font-size: 45px;">

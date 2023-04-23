@@ -42,18 +42,52 @@ nav a {
 
 main {
     display: flex;
+    justify-content: center;
+    background: linear-gradient(-30deg, #ffcccc, #ffffcc, #ccffff, #cc99ff);
+}
+
+#contdiv {
+    display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(-30deg, #ffcccc, #ffffcc, #ccffff, #cc99ff);
     padding: 12px 0px;
+}
+
+#timetable {
+    margin-left: 40px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+
+td {
+    width: 20%;
+    text-align: center;
+    padding: 4px 5px;
+}
+
+.day {
+    padding-top: 6px;
+    padding-bottom: 4px;
+    border-top: 1px solid #9900ff;
+}
+
+.name {
+    color: #660033;
+}
+
+.class {
+    color: #880044;
 }
 
 article {
     margin-top: 12px;
-    padding-left: 8px;
     margin-bottom: 8px;
     width: 480px;
     display: flex;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 a:link {
@@ -79,18 +113,13 @@ a:visited {
 h1 {
     display: flex;
     align-items: center;
-    padding: 12px;
+    padding: 6px 9px;
     font-size: x-large;
 }
 
 ul {
     margin: 5px 30px;
     font-size: large
-}
-
-article {
-    border-radius: 20px;
-    padding: 20px 10px;
 }
 
 article>ul {
@@ -213,5 +242,22 @@ footer {
 
     h1 {
         padding: 6px 8px;
+    }
+
+    #timetable {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #timetable {
+        padding-top: 0px;
+        padding-bottom: 24px;
+        margin-left: 0px;
     }
 }
