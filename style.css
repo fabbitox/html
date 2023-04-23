@@ -61,15 +61,22 @@ main {
     height: fit-content;
 }
 
+table {
+    margin: 0px;
+}
+
+th {
+    padding: 4px;
+}
+
 td {
     width: 20%;
     text-align: center;
-    padding: 4px 5px;
+    padding: 2px;
 }
 
 .day {
-    padding-top: 6px;
-    padding-bottom: 4px;
+    padding: 8px 3px 2px 3px;
     border-top: 1px solid #9900ff;
 }
 
@@ -79,6 +86,7 @@ td {
 
 .class {
     color: #880044;
+    padding-bottom: 4px;
 }
 
 article {

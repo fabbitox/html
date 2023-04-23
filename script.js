@@ -9,6 +9,16 @@ const timetable = [
     { "date": "5월 3일", "contents": ["홍봉희", "자료구조", "이상현", "DB SQL"] },
     { "date": "5월 4일", "contents": ["김경민", "React", "이상현", "DB SQL"] },
     { "date": "5월 5일", "contents": ["어린이날"] }],
+    [{ "date": "5월 8일", "contents": ["홍봉희", "자료구조", "이상현", "DB SQL"] },
+    { "date": "5월 9일", "contents": ["김경민", "React", "이상현", "DB SQL"] },
+    { "date": "5월 10일", "contents": ["홍봉희", "자료구조", "이상현", "Servlet JSP"] },
+    { "date": "5월 11일", "contents": ["김경민", "React", "이상현", "Servlet JSP"] },
+    { "date": "5월 12일", "contents": ["홍봉희", "자료구조", "이상현", "Servlet JSP"] }],
+    [{ "date": "5월 15일", "contents": ["부산대학교<br>개교기념일"] },
+    { "date": "5월 16일", "contents": ["김경민", "React", "이상현", "Servlet JSP"] },
+    { "date": "5월 17일", "contents": ["이상현", "Servlet JSP", "홍봉희", "자료구조"] },
+    { "date": "5월 18일", "contents": ["김경민", "React", "이상현", "Servlet JSP"] },
+    { "date": "5월 19일", "contents": ["이상현", "Servlet JSP", "홍봉희", "자료구조"] }],
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -29,9 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     switch (contlen) {
                         case 1:
                             tabletag += `<td rowspan="4">${day.contents[i]}</td>`;
-                            break;
-                        case 2:
-                            tabletag += `<td rowspan="2">${day.contents[i]}</td>`;
                             break;
                         case 4:
                             tabletag += `<td class=${i % 2 == 0 ? "name" : "class"}>${day.contents[i]}</td>`;
