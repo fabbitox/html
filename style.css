@@ -4,6 +4,10 @@
     font-family: 'Stylish', sans-serif;
 }
 
+::selection {
+    background-color: #bb77ff44;
+}
+
 header {
     top: 0px;
     left: 0px;
